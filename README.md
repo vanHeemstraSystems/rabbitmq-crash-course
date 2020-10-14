@@ -171,4 +171,12 @@ sudo apt-get update
 sudo apt-get install code # or code-insiders
 ```
 
-... continue
+# Start Visual Studio Code
+
+After installation you can start Visual Studio Code from the terminal as follows:
+
+```
+$ code
+```
+
+
