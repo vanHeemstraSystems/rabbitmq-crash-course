@@ -203,4 +203,15 @@ Inside your project (rabbitmq-crash-course) in Visual Studio Code, run the follo
 npm init -y
 ```
 
+Set your Git credentials:
 
+```
+$ git config --global user.email "wvanheemstra@icloud.com"
+$ git config --global user.name "Willem van Heemstra"
+```
+
+Run the following command from your terminal:
+
+```
+sudo apt install nodejs
+```
