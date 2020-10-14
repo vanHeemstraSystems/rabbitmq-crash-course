@@ -183,6 +183,12 @@ $ code
 
 ... instructions to follow soon, see https://www.geeksforgeeks.org/installation-of-node-js-on-linux/
 
+Run the following command from your terminal:
+
+```
+sudo apt install nodejs
+```
+
 # Initiate your repository in Visual Studio Code
 
 Inside your project (rabbitmq-crash-course) in Visual Studio Code, run the following command from a Terminal:
