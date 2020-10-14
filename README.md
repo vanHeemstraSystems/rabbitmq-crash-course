@@ -181,7 +181,7 @@ $ code
 
 # install NodeJS and NPM
 
-... instructions to follow soon
+... instructions to follow soon, see https://www.geeksforgeeks.org/installation-of-node-js-on-linux/
 
 # Initiate your repository in Visual Studio Code
 
