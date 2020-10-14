@@ -104,3 +104,37 @@ Become A Patron https://www.patreon.com/join/hnasr?
 
 Stay Awesome!
 Hussein
+
+# Spin up a Linux Server
+
+We use a Linux Server on paperspace.com: 'RabbitMQ' (Ubuntu)
+
+# Check Docker Installation
+
+In the terminal type the following to check if Docker is installed:
+
+```
+$ sudo docker run hello-world
+```
+
+You will be prompted as follows if Docker is installed:
+
+```
+$ ...
+$ Hello from Docker!
+$ ...
+```
+
+# Install Docker container with RabbitMQ
+
+Name your container (-name): rabbitmq
+Set the external port (-p) to the RabbitMQ Server: 5672 (you can choose some other number as well)
+Set the internal port (:) to the RabbitMQ Server: 5672 (default port for RabbitMQ Server)
+Mention the Image from which to pull the RabbitMQ docker: rabbitmq
+
+```
+$ docker run --name rabbitmq -p 5672:5672 rabbitmq
+
+```
+
+
