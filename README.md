@@ -137,4 +137,24 @@ $ docker run --name rabbitmq -p 5672:5672 rabbitmq
 
 ```
 
+Leave this container to run, switch to another terminal to prevent stopping the container.
 
+# Install Visual Studio Code
+
+To create and modify the Publisher(s) and subscriber(s), we use Visual Studio Code which can be installed for free from https://code.visualstudio.com/
+
+See https://code.visualstudio.com/docs/setup/linux
+
+Download the Debian distribution from https://go.microsoft.com/fwlink/?LinkID=760868
+
+Install the downloaded file (replace <file> with the actual file name of the download):
+
+```
+sudo apt install ./<file>.deb
+```
+
+Installing the .deb package will automatically install the apt repository and signing key to enable auto-updating using the system's package manager.
+
+```
+
+```
