@@ -189,6 +189,12 @@ Run the following command from your terminal:
 sudo apt install nodejs
 ```
 
+Run the following command from your terminal:
+
+```
+sudo apt install npm
+```
+
 # Initiate your repository in Visual Studio Code
 
 Inside your project (rabbitmq-crash-course) in Visual Studio Code, run the following command from a Terminal:
