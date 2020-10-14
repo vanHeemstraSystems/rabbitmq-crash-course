@@ -179,4 +179,16 @@ After installation you can start Visual Studio Code from the terminal as follows
 $ code
 ```
 
+# install NodeJS and NPM
+
+... instructions to follow soon
+
+# Initiate your repository in Visual Studio Code
+
+Inside your project (rabbitmq-crash-course) in Visual Studio Code, run the following command from a Terminal:
+
+```
+npm init -y
+```
+
 
