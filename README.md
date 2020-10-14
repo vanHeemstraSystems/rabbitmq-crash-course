@@ -25,24 +25,27 @@ In this video we will explain basic components of RabbitMQ Such as AMQP, channel
 
 
 timecodes
+
 0:00 Intro
+
 2:00 RabbitMQ Components
+
 8:30 Spin up RabbitMQ Docker Container
+
 11:00 Write a Publisher client NodeJs
+
 20:30 Write a consumer client NodeJs
+
 33:50 My thoughts on RabbitMQ 
 
-
-Source Code: https://github.com/hnasr/javascript_p...
+Source Code: https://github.com/hnasr/javascript_playground/tree/master/rabbitmq
 
 Docker commands here 
-https://github.com/hnasr/javascript_p...
+https://github.com/hnasr/javascript_playground/blob/master/rabbitmq/scripts.md
 
 Example
 
 Schedule async job
-
-￼
 
 Exchange 
 Queues
@@ -59,41 +62,41 @@ Uses Channels and Queues
 Multiples channels into one connections
 
 
-https://www.squaremobius.net/amqp.nod...
+https://www.squaremobius.net/amqp.node/channel_api.html#channel_bindExchange
 
-https://www.rabbitmq.com/tutorials/tu...
+https://www.rabbitmq.com/tutorials/tutorial-three-javascript.html
 
 
 🏭 Software Architecture Videos
-https://www.youtube.com/playlist?list...
+https://www.youtube.com/playlist?list=PLQnljOFTspQXNP6mQchJVP3S-3oKGEuw9
 
 💾 Database Engineering Videos
-https://www.youtube.com/playlist?list...
+https://www.youtube.com/playlist?list=PLQnljOFTspQXjD0HOzN7P2tgzu7scWpl2
 
 🛰 Network Engineering Videos
-https://www.youtube.com/playlist?list...
+https://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr
 
 🏰 Load Balancing and Proxies Videos
-https://www.youtube.com/playlist?list...
+https://www.youtube.com/playlist?list=PLQnljOFTspQVMeBmWI2AhxULWEeo7AaMC
 
 🐘 Postgres Videos 
-https://www.youtube.com/playlist?list...
+https://www.youtube.com/playlist?list=PLQnljOFTspQWGrOqslniFlRcwxyY94cjj
 
 🧮 Programming Pattern Videos 
-https://www.youtube.com/playlist?list...
+https://www.youtube.com/playlist?list=PLQnljOFTspQV1emqxKbcP5esAf4zpqWpe
 
 🛡 Web Security Videos
-https://www.youtube.com/playlist?list...
+https://www.youtube.com/playlist?list=PLQnljOFTspQU3YDMRSMvzflh_qXoz9zfv
 
 🦠 HTTP Videos
-https://www.youtube.com/playlist?list...
+https://www.youtube.com/playlist?list=PLQnljOFTspQU6zO0drAYHFtkkyfNJw1IO
 
 
 🐍 Python Videos
-https://www.youtube.com/playlist?list...
+https://www.youtube.com/playlist?list=PLQnljOFTspQU_M83ARz8mDdr4LThzkBKX
 
 🔆 Javascript Videos 
-https://www.youtube.com/playlist?list...
+https://www.youtube.com/playlist?list=PLQnljOFTspQWab0g3W6ZaDM6_Buh20EWM
 
 
 Support me on PayPal  https://bit.ly/33ENps4 
