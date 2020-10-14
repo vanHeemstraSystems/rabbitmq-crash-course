@@ -147,7 +147,7 @@ See https://code.visualstudio.com/docs/setup/linux
 
 Download the Debian distribution from https://go.microsoft.com/fwlink/?LinkID=760868
 
-Install the downloaded file (replace <file> with the actual file name of the download):
+Install the downloaded file (replace < file > with the actual file name of the download, e.g. code_xxx):
 
 ```
 sudo apt install ./<file>.deb
