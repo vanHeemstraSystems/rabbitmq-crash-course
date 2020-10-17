@@ -1,0 +1,23 @@
+{
+  "name": "rabbitmq-crash-course",
+  "version": "1.0.0",
+  "description": "rabbitmq-crash-course # RabbitMQ - Crash Course",
+  "main": "publisher.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vanHeemstraSystems/rabbitmq-crash-course.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vanHeemstraSystems/rabbitmq-crash-course/issues"
+  },
+  "homepage": "https://github.com/vanHeemstraSystems/rabbitmq-crash-course#readme",
+  "dependencies": {
+    "amqplib": "^0.6.0"
+  }
+}
