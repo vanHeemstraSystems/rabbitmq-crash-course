@@ -244,3 +244,32 @@ Run the following command from your terminal:
 ```
 sudo apt install nodejs
 ```
+
+# Write your first Publisher code
+
+Create a new file called "publisher.js" in the root of your project, and add the following code to it:
+
+```
+
+```
+
+After having done so, make sure you install amqplib as is required by running the following command (it will add it to package.json for future reuse):
+
+```
+npm install ampqlib --save
+```
+
+# Debug your first Publisher code
+
+See also https://code.visualstudio.com/docs/nodejs/nodejs-debugging
+and https://code.visualstudio.com/docs/introvideos/debugging
+
+Select the publisher.js file and set a breakpoint inside the try section
+
+Next, choose "" from the top menu of Visual Studio Code and select the following Environment (if not done so already before):
+
+- Node.js
+
+Your code will run and it will bring you to the breakpoint.
+
+
