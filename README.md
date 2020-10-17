@@ -272,4 +272,17 @@ Next, choose "" from the top menu of Visual Studio Code and select the following
 
 Your code will run and it will bring you to the breakpoint.
 
+You will see the following output in the console:
+
+```
+Job sent successfully 19
+```
+
+# Check for New Messages in the Web UI Management Console
+
+Check the Web UI Management Console for new messages.
+
+http://localhost:15672/
+
+
 
