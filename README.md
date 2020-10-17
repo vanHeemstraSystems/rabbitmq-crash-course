@@ -154,7 +154,7 @@ $ docker run --rm -it -d --hostname rabbitmq-server --name rabbitmq -p 15672:156
 
 ```
 
-Leave this container to run, switch to another terminal to prevent stopping the container.
+If not run in "detached" mode, leave this container to run, switch to another terminal to prevent stopping the container.
 
 # Install Visual Studio Code
 
