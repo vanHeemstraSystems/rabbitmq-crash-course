@@ -1,6 +1,5 @@
 const amqp = require('amqplib');
 
-const msg = {number: 7}
 connect();
 async function connect() {
 
@@ -8,8 +7,10 @@ async function connect() {
         const connection = await amqp.connect("amqp://localhost:5672");
         const channel = await connection.createChannel();
         const result = await channel.assertQueue("jobs");
-        channel.sendToQueue("jobs", Buffer.from(JSON.stringify(msg)));
-        console.log(`Job sent successfully ${msg.number}`);
+        channel.consume("jobs", message => {
+           console.log(message.content.toString());
+        })
+        console.log("Waiting for messages...");
     }
     catch(ex) {
         console.error(ex)

@@ -290,3 +290,36 @@ You should see a new message in the queue named "jobs".
 
 # Create your first Consumer code
 
+Create a new file called "consumer.js" and add the following code:
+
+```
+const amqp = require('amqplib');
+
+connect();
+async function connect() {
+
+    try {
+        const connection = await amqp.connect("amqp://localhost:5672");
+        const channel = await connection.createChannel();
+        const result = await channel.assertQueue("jobs");
+        channel.consume("jobs", message => {
+           console.log(message.content.toString());
+        })
+        console.log("Waiting for messages...");
+    }
+    catch(ex) {
+        console.error(ex)
+    }
+}
+```
+
+# Debug the new Consumer code;
+
+In Visual Studio Code start the Debugger (or type 'node consumer.js' in your terminal instead).
+
+The console will print the followoing (assuming you had published one or more messages beforehand that still reside on the 'jobs' queue):
+
+```
+{"number": 19}
+...
+```
