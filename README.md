@@ -156,6 +156,18 @@ $ docker run --rm -it -d --hostname rabbitmq-server --name rabbitmq -p 15672:156
 
 If not run in "detached" mode, leave this container to run, switch to another terminal to prevent stopping the container.
 
+# RabbitMQ Web UI management Console
+
+If you started docker with rabbit:3-management the Web UI Management Console can be seen in your local browser at (**note**: depends on the port you've set, here default):
+
+http://localhost:15672
+
+Login before password change is:
+
+Username: guest
+
+Password: guest
+
 # Install Visual Studio Code
 
 To create and modify the Publisher(s) and subscriber(s), we use Visual Studio Code which can be installed for free from https://code.visualstudio.com/
