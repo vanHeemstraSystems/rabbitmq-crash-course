@@ -317,7 +317,7 @@ async function connect() {
 
 In Visual Studio Code start the Debugger (or type 'node consumer.js' in your terminal instead).
 
-The console will print the followoing (assuming you had published one or more messages beforehand that still reside on the 'jobs' queue):
+The console will print the following (assuming you had published one or more messages beforehand that still reside on the 'jobs' queue):
 
 ```
 {"number": 19}
