@@ -278,6 +278,8 @@ You will see the following output in the console:
 Job sent successfully 19
 ```
 
+***NOTE***: Kill the connection to the queue by stopping the debugger.
+
 # Check for New Messages in the Web UI Management Console
 
 Check the Web UI Management Console for new messages.
