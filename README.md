@@ -282,7 +282,7 @@ Job sent successfully 19
 
 Check the Web UI Management Console for new messages.
 
-http://localhost:15672/
+http://localhost:15672/#/queues/
 
-
+You should see a new message in the queue named "jobs".
 
