@@ -288,3 +288,5 @@ http://localhost:15672/#/queues/
 
 You should see a new message in the queue named "jobs".
 
+# Create your first Consumer code
+
