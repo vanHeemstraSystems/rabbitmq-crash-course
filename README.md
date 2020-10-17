@@ -127,17 +127,34 @@ $ ...
 
 # Install Docker container with RabbitMQ
 
-Name your container (-name): rabbitmq
-Set the external port (-p) to the RabbitMQ Server: 5672 (you can choose some other number as well)
-Set the internal port (:) to the RabbitMQ Server: 5672 (default port for RabbitMQ Server)
-Mention the Image from which to pull the RabbitMQ docker: rabbitmq
+See also: https://docs.docker.com/engine/reference/run/
+
+OPTIONAL: The --rm flag is there to tell the Docker Daemon to clean up the container and remove the file system after the container exits. This helps you save disk space after running short-lived containers.
+
+OPTIONAL: The -it flag tells docker that it should open an interactive container instance.
+
+OPTIONAL: A useful parameter to pass to docker run is the -d flag. This flag causes Docker to start the container in “detached” mode. A simple way to think of this is to think of -d as running the container in “the background,” just like any other Unix process.
+
+OPTIONAL (default = localhost): Name your container's hostname (-hostname): rabbitmq-server
+
+REQUIRED: Name your container (-name): rabbitmq
+
+OPTIONAL: Set the external port (-p) to the RabbitMQ Web UI Management Console: 15672 (you can choose some other number as well)
+
+OPTIONAL: Set the internal port (:) to the RabbitMQ Web UI Management Console: 15672 (default port for RabbitMQ Server)
+
+REQUIRED: Set the external port (-p) to the RabbitMQ Server Client connection: 5672 (you can choose some other number as well)
+
+REQUIRED: Set the internal port (:) to the RabbitMQ Server Client connection: 5672 (default port for RabbitMQ Server)
+
+REQUIRED: Mention the Image from which to pull the RabbitMQ docker: rabbitmq or rabbitmq:3-management (which includes the Web UI Management Console)
 
 ```
-$ docker run --name rabbitmq -p 5672:5672 rabbitmq
+$ docker run --rm -it -d --hostname rabbitmq-server --name rabbitmq -p 15672:15672 -p 5672:5672 rabbitmq:3-management
 
 ```
 
-Leave this container to run, switch to another terminal to prevent stopping the container.
+If not run in "detached" mode, leave this container to run, switch to another terminal to prevent stopping the container.
 
 # Install Visual Studio Code
 
